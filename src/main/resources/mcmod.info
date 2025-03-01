@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "factions_tweaks",
+    "name": "Factions Tweaks",
+    "description": "Various tweaks for factions",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "phonis"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

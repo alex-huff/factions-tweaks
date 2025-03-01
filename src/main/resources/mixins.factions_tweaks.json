@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "dev.phonis.factions_tweaks.mixins",
+  "refmap": "mixins.factions_tweaks.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "BlockMixin",
+    "BlockSlimeMixin",
+    "EntityLivingBaseMixin",
+    "EntityRendererMixin",
+    "MinecraftMixin",
+    "RenderMixin",
+    "WorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+  ]
+}
