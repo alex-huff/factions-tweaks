@@ -49,7 +49,7 @@ public class Keybinds
     {
         while (Keybinds.togglePlayers.isPressed())
         {
-            String enabledSpecifier = HidePlayers.INSTANCE.togglePlayers() ? "enabled" : "disabled";
+            String enabledSpecifier = HidePlayers.INSTANCE.togglePlayers() ? "hidden" : "shown";
             MinecraftUtil.sendLocalMessage("players " + enabledSpecifier);
         }
         while (Keybinds.toggleAutoAttack.isPressed())
